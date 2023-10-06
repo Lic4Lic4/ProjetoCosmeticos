@@ -1,0 +1,143 @@
+/* O responsável por esse código é Luciano Dario */
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+:root{
+    font-size: 62.5%;
+    --nav-bg-color: #E6406F;;
+    --nav-text-color: #FFE4EC;
+    --button-bg-color: #661d31;
+    --button-text-color: #FFE4EC;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    font-size: 1.8rem;
+    background-color: #FFD4E0;
+    color: #59192B;
+}
+
+
+nav {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    height: 10rem;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 13rem;
+}
+
+.button{
+    padding: 1rem 1.6rem;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color:  var(--nav-text-color);
+}
+
+h1{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+
+}
+.container{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+form{
+    width: 60rem;
+    margin-left: 7rem;
+    margin-bottom: 7rem;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 2px;
+}
+
+input{
+    width: 100%;
+    padding: 2px
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+footer{
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    height: 5.4rem;
+}
+
+
+.telefone{
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+}
+
+.localizacao{
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+}
+
+.botoes{
+    display:flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+button[type="reset"]{
+    height: 25px;
+    background-color: rgb(190, 188, 188);
+    border-radius: 5px;
+}
+
+button[type="submit"]{
+    background-color: rgb(254, 146, 164);
+    border-radius: 5px;
+    height: 25px;
+}

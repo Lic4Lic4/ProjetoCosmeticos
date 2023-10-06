@@ -1,0 +1,126 @@
+/* A responsável por este código é Livia Cardozo */
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --body-bg-color: #FFD4E0;
+    --body-text-color: #59192B;
+    --nav-bg-color: #E6406F;
+    --nav-text-color: #FFE4EC;
+    --button-bg-color: #661D31;
+    --button-text-color: #FFE4EC;
+    --footer-bg-color: #661D31;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body-bg-color);
+    color: var(--body-text-color);
+}
+
+nav {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.FotoLogo {
+    width: 10rem;
+    height: 10rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 13rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+
+a:hover {
+    background-color: var(--nav-text-color);
+    color: var(--nav-bg-color);
+}
+
+.button {
+    padding: 1rem 1.6rem;
+    background-color: var(--button-bg-color); 
+    color: var(--button-text-color);
+    border: none; 
+    border-radius: 2rem;
+}
+
+.container {
+    display: flex;  
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+.container2 {
+    flex-direction: column;
+    margin: 1rem;
+    font-size: 2rem;
+    padding-top: 12rem;
+}
+
+.fotoconteudo {
+    margin-top: 10rem;
+    width: 65rem;
+}
+
+.anuncio {
+    display: flex; 
+    width: 100%;
+    height: auto;
+} 
+
+.fotoanuncio {
+    margin-top: 15rem;
+    width: 35rem;
+    height: 100px;
+    position: sticky;
+    top: 10rem;
+} 
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--nav-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    height: 5.4rem;
+}
+
+.telefone{
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+}
+
+.localizacao{
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+}

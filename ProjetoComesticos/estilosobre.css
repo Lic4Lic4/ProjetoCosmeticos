@@ -1,0 +1,129 @@
+/* O responsável por este código é João Victor */
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFD4E0;
+    color: #59192B;
+}
+
+nav {
+    
+    background-color:#E6406F;
+    color: #FFD4E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    gap: 13rem;
+}
+
+li {
+    height: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD4E0;
+}
+
+h1 {
+    text-align: center;
+    color: #59192B;
+
+}
+
+.button {
+    padding:1rem 1.6rem;
+    background-color:#661D31;
+    color:#FFD4E0;
+    border: none;
+    border-radius: 2rem;
+}
+
+.foto1{
+    padding-top: 5rem;
+}
+
+.lado_direito {
+    display: table;  
+}
+
+.imagem_1 {
+    display: table-cell;
+    float: left;
+}
+
+.texto_1 {
+    display: table-cell;
+    float:left ;
+    width: 500px;
+    margin-left: 150px;
+}
+
+.lado_esquerdo {
+    display: table;  
+}
+
+.imagem_2 {
+    display: table-cell;
+    float: left;
+    
+}
+
+.texto_2 {
+    display: table-cell;
+    float:left ;
+    width: 500px;
+    margin-left: 150px;
+}
+
+footer {
+    background-color: #661D31;
+    ;
+    color: #FFD4E0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 2.4rem;
+    font-size: 2rem;
+    height: 4.5rem;
+}
+
+.telefone {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    color: #FFD4E0;
+}
+
+.localizacao {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+
+

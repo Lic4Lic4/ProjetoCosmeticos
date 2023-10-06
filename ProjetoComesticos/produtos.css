@@ -1,0 +1,107 @@
+/* A responsável por este código é Anna Lang */
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto:wght@100&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+ }
+
+ body {
+    background-color: #ffd4e0;
+    color: #59192b;
+    font-family: 'roboto', sans-serif;
+ }
+
+nav {
+    background-color: #E6406F;
+    color: #ffe4ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.FotoLogo {
+    width: 10rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 13rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffe4ec;
+}
+
+a:hover {
+    background-color: #ffe4ec;
+    color: #E6406F;
+}
+
+.button {
+    padding: 1rem 1.6rem;
+    background-color: #59192b; 
+    color: #ffe4ec;
+    border: none; 
+    border-radius: 2rem;
+}
+
+footer {
+    background-color: #661D31;
+    color: #ffe4ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+    font-size: 2rem;
+    height: 5.4rem;
+}
+
+.telefone {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+.localizacao {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 13rem;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 10rem;
+    margin: auto;
+    justify-content: center;
+    padding: 1rem;
+}
+
+a img {
+    height: 35rem;
+    width: 23rem;
+    border-radius: 0.5rem;
+ }

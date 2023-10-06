@@ -1,0 +1,94 @@
+<!-- O responsável por este código é Luciano Dario -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <img class="FotoLogo" src="FotoLogo.png" alt="logotipo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+        </ul>
+        <a href="contatos.html"><button class="button">Contato</button></a>
+    </nav>
+
+    <div class="container">
+    <h1>Cadastro</h1>
+    
+        <form action="recebe.php">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="number" id="telefone" name="telefone" required>
+        
+            <label for="sexo">Sexo</label>
+                <select name="sexo" id="sexo" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="mas">Masculino</option>
+                    <option value="fem">Feminino</option>
+                    <option value="pni">Prefiro não informar</option>
+                </select>
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" id="dataNascimento" name="dataNascimento">
+        
+            <label for="escolaridade">Escolaridade</label>
+            <input type="text" id="escolaridade" name="escolidade">
+        
+            <label for="endereco">Endereço</label>
+            <input type="endereco" id="endereco" name="endereco">
+        
+            <label for="cidade">Cidade</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <label for="pais">País</label>
+            <input type="text" name="pais" id="pais">
+
+            <label for="comentario">Deixe seu comentário</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+            <div class="botoes">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <div class="localizacao">
+            <span class="material-symbols-outlined">
+                location_on
+            </span>
+            <p>Av. Monsenhor Martinho Salgot, 560, Areião - Piracicaba, SP 13414-000</p>
+        </div>
+
+        <div class="telefone">
+            <span class="material-symbols-outlined">
+                call 
+            </span>
+            <p>+55(00)00000-0000</p>
+        </div>
+    
+    </footer>
+
+</body>
+</html>
